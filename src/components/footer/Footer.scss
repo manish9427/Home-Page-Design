@@ -1,0 +1,60 @@
+/* Footer.scss */
+$black: #000;
+$white: #fff;
+.footer {
+  background: $black;
+  color: $white;
+  width: 100%;
+  padding: auto;
+
+  .menuItems {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    .menuItem {
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+
+  .infoText {
+    margin-top: 10px;
+  }
+
+  .socialIcons {
+    margin-top: 50px;
+
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.top_Texting {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.bottom_Texting {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.footer_first {
+  .footer_top-heading {
+    margin: 0;
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+  .footer_bottom-heading {
+    margin-top: 0;
+    font-weight: 500;
+  }
+}

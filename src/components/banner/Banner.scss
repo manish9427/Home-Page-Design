@@ -1,0 +1,65 @@
+.heroBanner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+
+  .backdrop-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    .imgg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .heroBannerContent {
+    position: relative;
+    z-index: 1; // Ensure the text content is above the image
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+    .text-content {
+      flex: 1;
+      padding: 20px;
+      margin-left: 100px;
+      width: 10%;
+    }
+  }
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.read-more {
+  background-color: red;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(163, 91, 91);
+  }
+}
