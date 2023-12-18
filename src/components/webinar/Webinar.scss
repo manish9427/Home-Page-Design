@@ -1,0 +1,32 @@
+.webinar {
+  position: absolute;
+  text-align: center;
+  h1,
+  p {
+    color: #fff;
+  }
+}
+.flex-webinar-banner {
+  display: flex;
+}
+.webinar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.webinar-one {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.webinar-two {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
